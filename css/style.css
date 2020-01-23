@@ -11,9 +11,9 @@ html {
 }
 
 img {
-  max-width: 260px;
-  max-height: 260px;
-  border: 1px solid black;
+  max-width: 250px;
+  max-height: 250px;
+  border: 2px solid black;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 1rem 0;
 }
 
 a {
@@ -34,8 +34,10 @@ a {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 300;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 img {
@@ -48,7 +50,8 @@ img {
   height: 100%;
   margin: 0 auto;
   position: relative;
-  padding-top: 15rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
 }
 
 .section-heading {
@@ -212,13 +215,14 @@ li {
 }
 
 .landing-text h1 {
-  font-size: 7rem;
-  font-family: "Delius Unicase", cursive;
+  font-size: 10rem;
+  font-family: "Unica One", cursive;
   background: linear-gradient(to top, #000000e5, #00000052);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
   user-select: none;
+  /* opacity: 0.6; */
 }
 
 .landing-text h6 {
@@ -237,16 +241,19 @@ li {
   line-height: 0;
   margin-bottom: 6rem;
 }
+
 .about-heading h1 {
-  font-size: 8rem;
+  font-size: 7rem;
   opacity: 0.3;
   text-transform: uppercase;
 }
 
-.about-heading h6 {
-  font-size: 2rem;
-  font-weight: 200;
-  font-family: "Delius Unicase", cursive;
+.about-myself {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* font-family: "Delius Unicase", cursive; */
+  padding-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .profile-img {
@@ -309,6 +316,7 @@ li {
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
+  opacity: 0.5;
 }
 
 .icon-container i {
@@ -427,11 +435,11 @@ li {
 /* CONTACT */
 
 .contact {
-  background-color: #dadada9f;
+  background-color: #dadada34;
 }
 
 form {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -469,7 +477,7 @@ input[type="submit"]:hover {
 .copyright {
   width: 100%;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #ccc;
   padding: 2rem 0;
   position: relative;
 }
@@ -480,7 +488,7 @@ input[type="submit"]:hover {
   position: absolute;
   width: 5rem;
   height: 5rem;
-  background: rgb(82, 1, 1);
+  background: rgba(82, 1, 1, 0.712);
   top: -2.5rem;
   right: 5rem;
   border-radius: 100%;
@@ -490,13 +498,15 @@ input[type="submit"]:hover {
 }
 
 .up i {
-  color: #424242;
+  color: #ffffff;
   font-size: 2rem;
   margin: auto;
 }
 
 .copyright p {
   font-size: 1.4rem;
+  text-align: center;
+  color: #000;
 }
 
 @keyframes pulse {
